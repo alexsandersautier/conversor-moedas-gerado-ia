@@ -15,7 +15,7 @@ st.title("💱 Conversor de Moedas")
 st.sidebar.header("Configurações de Conversão")
 
 # Lista de moedas suportadas
-moedas = ["USD", "EUR", "BRL", "JPY", "GBP", "ARS", "BTC"]
+moedas = ["USD", "EUR", "BRL", "JPY", "GBP", "ARS", "BTC", "ARS"]
 
 moeda_origem = st.sidebar.selectbox("Moeda de Origem", moedas)
 moeda_destino = st.sidebar.selectbox("Moeda de Destino", moedas)
